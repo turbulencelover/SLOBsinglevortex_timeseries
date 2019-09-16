@@ -1,2 +1,3 @@
 # SLOBsinglevortex_timeseries
 This set of codes solves Boussinesq Equations in a triply-periodic domain. They are adjusted to the problem of a single barotropic vortex interacting with a travelling inertial wave. The computations are minimised to derive the time series at three points (or more) in physical space. All other diagnostics are kept to minimum. Real Space slices are removed for further efficiency.  
+In this version, the time series of vertical vorticity, horizontal velocity are stored. Moreover, the vertical vorticity is decomposed to a barotropic and a baroclinic part, as well as a geostrophic and an ageostrophic (wave) part, and the time series of decomposed parts are also calculated.
